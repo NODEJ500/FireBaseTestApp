@@ -9,7 +9,7 @@ import UIKit
 import Firebase
 import GoogleSignIn
 
-class ViewController: UIViewController,UITextFieldDelegate,{
+class ViewController: UIViewController,UITextFieldDelegate,GIDSignInDelegate{
     
     
     @IBOutlet weak var label: UILabel!
